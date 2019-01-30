@@ -3,17 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Admin</title>
+    <title>Create-Office</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
-            <head>
-                <title>Politico-Admin</title>
-                <link rel="stylesheet" type="text/css" href="main.css">
-            </head>
-            <body>
-                <header><h1>Politico</h1></header>
+
+        <head>
+            <title>Politico-Office</title>
+            <link rel="stylesheet" type="text/css" href="main.css">
+        </head>
+        <body>
+            <header><h1>Politico</h1></header>
                 <nav>
                     <div>
                         <ul>
@@ -21,28 +22,23 @@
                         </ul>
                     </div>
                 </nav>
+                <div class="container">
+                    <div class="wrap-register">
+                        <form>
+                            <h2>Create A New Office</h2>
+                            <hr>
+                            <label for="uname"><b>Office Name:</b></label>
+                            <input type="text" placeholder="i.e Presidential" name="uname" required>
+
+                            <label for="email"><b>Contenders:</b></label>
+                            <input type="text" placeholder="i.e 2" name="email" required>
+
+                            <div>
+                                <button type="button" class="signupbtn">Add</button>
+                            </div>
+                        </form>
                 </div>
-                <footer id="btn">
-                        <div class="footer-btn">
-                            <div class="btn">
-                                <h2>Create a new party</h2>
-                                <a href="create_party.html"><button id="getLogin" type="button" class="signinbtn position">Create</button></a>
-                            </div>
-                            <div class="btn">
-                                    <h2>Edit party</h2>
-                                    <a href="edit_party.html"><button id="getLogin" type="button" class="signinbtn position">Edit</button></a>
-                            </div>
-                            <div class="btn">
-                                    <h2>Delete party</h2>
-                                    <a href="delete_party.html"><button id="getLogin" type="button" class="signinbtn position">Delete</button></a>
-                            </div>
-                            <div class="btn">
-                                    <h2>Create a new office</h2>
-                                    <a href="create_office.html"><button id="getLogin" type="button" class="signinbtn position">Create</button></a>
-                            </div>                               
-                        </div>
-                    </footer> 
-               
+                </div>
                 <footer>
                     <div class="footer-divide">
                         <div class="divide">
@@ -70,5 +66,5 @@
                         </div>                               
                     </div>
                 </footer> 
-            </body>   
-        </html>
+        </body>
+    </html>
