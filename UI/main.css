@@ -1,6 +1,6 @@
 body{
   font-family: Verdana, Helvetica, sans-serif Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   background:#fff;
   margin: 0;
   padding: 0;
@@ -328,6 +328,27 @@ footer {
 .divide{
   width: 33%;
   text-align: center;
+}
+#btn {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 150px;
+  font-family: helvetica;
+}
+.footer-btn{
+margin: 0;
+display: flex;
+padding: 0;
+}
+.btn{
+width: 25%;
+text-align: center;
 }
 
 .sidenav {
