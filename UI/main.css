@@ -4,6 +4,7 @@ body{
   background:#fff;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 .main-row{
   margin: 0px;
@@ -13,6 +14,11 @@ body{
   background: grey;
   display: flex;
 }
+.responsive{
+  width: 100%;
+  height: auto;
+}
+
 .full-row{
   margin: 0px;
   padding: 0px;
@@ -40,15 +46,7 @@ body{
   -webkit-filter: blur(8px);
 
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-}
+
 .image-text{
   position: relative;
   text-align: center;
@@ -67,7 +65,7 @@ body{
 
 /* Clear floats after image containers */
 .row{
-  background:#000000;
+  background:#fff;
 }
 .row::after {
   content: "";
@@ -78,6 +76,55 @@ body{
 img{
   width: 100%;
   height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 50px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 50px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 50px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 50px;
+}
+
+/* Centered text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin-bottom: 50px;
+  margin-right: 480px;
+  background-color: rgb(44, 43, 43);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 18px;
 }
 div.row2-struct{
   font-style: italic;
@@ -317,7 +364,7 @@ footer {
     color: white;
     font-size: 14px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 0px;
     font-family: helvetica;
 }
 .footer-divide{
