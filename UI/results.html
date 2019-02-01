@@ -3,47 +3,57 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Edit-Party</title>
+    <title>User</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
-
-        <head>
-            <title>Politico-Edit</title>
-            <link rel="stylesheet" type="text/css" href="main.css">
-        </head>
-        <body>
-            <header><h1>Politico</h1></header>
+            <head>
+                <title>Politico-User</title>
+                <link rel="stylesheet" type="text/css" href="main.css">
+            </head>
+            <body>
+                <header><h1>Politico</h1></header>
                 <nav>
                     <div>
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="create_party.html">Parties</a></li>
-                            <li><a href="create_office.html">Offices</a></li>
-                            <li><a href="delete_party.html">Delete Party</a></li>
-                            <li><a href="edit_party.html">Change Party</a></li>
+                            <li><a href="results.html">Results</a></li>
+                            <li><a href="offices.html">Offices</a></li>
+                            <li><a href="vote.html">Vote Now</a></li>
                         </ul>
                     </div>
                 </nav>
-                <div class="container">
-                    <div class="wrap-register">
-                        <form>
-                            <h2>Change Party Name</h2>
-                            <hr>
-                            <label for="uname"><b>New Party Name:</b></label>
-                            <input type="text" placeholder="i.e People's Party(PP)" name="uname" required>
-
-                            <label for="name"><b>Confirm Party Name:</b></label>
-                            <input type="text" placeholder="i.e People's Party(PP)" name="name" required>
-
-
-                            <div>
-                                <button type="button" class="signupbtn">Add Party</button>
-                            </div>
-                        </form>
-                </div>
-                </div>
+                <h2 style="margin-left: 10px">Candidates Results</h2>
+                <div>
+                        <table>
+                            <tr>
+                                <th>Candidate name</th>
+                                <th>Office</th>
+                                <th>Party name</th>
+                            </tr>
+                            <tr>
+                                <td>Hon. Jane Doe</td>
+                                <td>Presidential</td>
+                                <td>People's Party(DPP)</td>
+                            </tr>
+                            <tr>
+                                <td>Hon. George Sam</td>
+                                <td>Governor</td>
+                                <td>Jubilee Party(JP)</td>
+                            </tr>
+                            <tr>
+                                <td>Hon. John Doe</td>
+                                <td>Member of parliament</td>
+                                <td>Orange Democratic(ODM)</td>
+                            </tr>
+                            <tr>
+                                <td>Hon. Mariam Keni</td>
+                                <td>Member of county assembly</td>
+                                <td>National Alliance Party(NAP)</td>
+                            </tr>
+                        </table>
+                    </div>
                 <footer>
                     <div class="footer-divide">
                         <div class="divide">
@@ -71,5 +81,5 @@
                         </div>                               
                     </div>
                 </footer> 
-        </body>
-    </html>
+            </body>   
+        </html>

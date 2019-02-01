@@ -118,7 +118,7 @@ img{
   bottom: 20px;
   right: 20px;
   margin-bottom: 50px;
-  margin-right: 480px;
+  margin-right: 450px;
   background-color: rgb(44, 43, 43);
   color: white;
   padding-left: 20px;
@@ -400,11 +400,11 @@ text-align: center;
 
 .sidenav {
     float : right;
-    height: 18%; 
+    height: 25%; 
     width: 160px;
     position: fixed; 
     z-index: 1; 
-    top: 27%; 
+    top: 22.25%; 
     right: 0;
     background-color: #111;
     overflow-x: hidden;
