@@ -186,7 +186,6 @@ td{
   width: 20%;
 }
 
-
 input[type=text], input[type=password] {
   height: 40px;
   width: 350px;
@@ -272,21 +271,19 @@ button:hover {
   height: 40px;
   width: 100px;
   border-radius: 100px;
-  /*margin: 5px 0 22px 450px;*/
 }
+
 .signinbtn {
   height: 40px;
   width: 100px;
   border-radius: 100px;
-  /*margin: 5px 0 22px 450px;*/
 }
+
 .submit{
   height: 50px;
   width: 200px;
   border-radius: 100px;
-  /*margin: 5px 0 22px 450px;*/
 }
-
 
 .line{
   display: flex;
@@ -296,8 +293,6 @@ button:hover {
 nav.container{
   display: flex;
   float: left;
-
-  
 }
 .wrap-login{
   width: 27.89%;
@@ -424,13 +419,6 @@ text-align: center;
     color: #f1f1f1;
 }
 
-/*
-.main {
-    margin-left: 160px; 
-    padding: 0px 10px;
-}
-
-*/
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -462,8 +450,8 @@ text-align: center;
 }
 
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 14px; /* Increased text to enable scrolling */
+  margin-left: 160px;
+  font-size: 14px;
   padding: 0px 10px;
 }
 
